@@ -4,6 +4,7 @@ const menuitems=document.querySelectorAll(".menuItem")
 
 menuitems.forEach((item,indx)=>{
 item.addEventListener("click",()=>{
-wrapper.style.transform=`translateX(${-100*indx}vw)`;                                
+wrapper.style.transform=`translateX(${-100*indx}vw)`;   
+                            
 })
 });
