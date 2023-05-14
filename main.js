@@ -137,3 +137,17 @@ let chosenProduct=products[0];
         })
         
     })
+
+    const buybtn=document.querySelector(".productBtn");
+    const payment=document.querySelector(".payment");
+    const closeBtn=document.querySelector(".close")
+       
+    buybtn.addEventListener("click",()=>{
+        
+         
+        payment.style.display="flex";
+    })
+    closeBtn.addEventListener("click",()=>{
+        console.log("hihis")
+        payment.style.display="none";
+    })

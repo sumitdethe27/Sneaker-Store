@@ -236,3 +236,91 @@ nav {
   color: black;
   background-color: white;
 }
+.payment {
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  position: absolute;
+  top: 15px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  padding: 10px 50px;
+  display: none;
+  /*js will change it to flex  */
+  flex-direction: column;
+  -webkit-box-shadow: 0px 0px 31px 8px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px 0px 31px 8px rgba(0, 0, 0, 0.42);
+}
+.payTitle {
+  font-size: 20px;
+  color: rgb(146, 146, 146);
+}
+label {
+  font-size: 14px;
+  font-weight: 300;
+}
+.payInput {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.payInput::placeholder {
+  color: rgb(201, 199, 199);
+}
+.cardIcons {
+  display: flex;
+}
+.cardIcon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.sm {
+  width: 50%;
+}
+.payButton {
+  position: absolute;
+  height: 40px;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  /* -webkit-box-shadow: 0px 0px 31px 8px rgba(0, 0, 0, 0.42); */
+  box-shadow: 0px 0px 31px 8px rgba(0, 0, 0, 0.42);
+  background-color: #369e62;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.close {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  background-color: gainsboro;
+  color: white;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5px;
+}
+.galleryItems {
+  padding: 50px;
+  display: flex;
+  width: 100vw;
+}
+.galleryItem {
+  flex: 1;
+}
+.galleryImg {
+  width: 100%;
+  padding: 50px;
+}
