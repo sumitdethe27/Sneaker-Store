@@ -7,7 +7,7 @@ const products=[
     {
         id:1,
         title:"Air Force",
-        price:179.99,
+        price:119,
         colors:[
             {
                 code:"black",
@@ -23,7 +23,7 @@ const products=[
     {
         id:2,
         title:"Jordan",
-        price:199.99,
+        price:189,
         colors:[
             {
                 code:"lightgray",
@@ -39,7 +39,7 @@ const products=[
     {
         id:3,
         title:"Blazer",
-        price:189.99,
+        price:109,
         colors:[
             {
                 code:"lightgray",
@@ -54,8 +54,8 @@ const products=[
     },
     {
         id:4,
-        title:"Crater",
-        price:128.99,
+        title:"Curtor",
+        price:159,
         colors:[
             {
                 code:"black",
@@ -71,7 +71,7 @@ const products=[
     {
         id:5,
         title:"Hippie",
-        price:109.99,
+        price:129,
         colors:[
             {
                 code:"gray",

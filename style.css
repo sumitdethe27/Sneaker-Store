@@ -397,104 +397,112 @@ footer {
   height: 20px;
   margin-right: 10px;
 }
-@media screen and (max-width:480px) {
-  nav{
- padding: 20px;
+@media (max-width: 767px) {
+  nav {
+    padding: 10px 20px;
   }
-  .search{
-    display: none;
+
+  .navTop {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
   }
-  .menuItem{
-    margin:20px ;
-    font-size: 20px;
-    font-weight: 700;
+
+  .search {
+    margin-bottom: 10px;
   }
-   .navBottom{
-    flex-wrap: wrap;
-   }
-   .slider{
-    clip-path: none;
-   }
-   .sliderImage{
-    width: 90%;
-   }
-   .sliderBg{
+
+  .searchInput {
     width: 100%;
-    height: 100%;
-   }
-   .sliderPrice{
-    top: unset;
-    bottom: 0;
-    left: 0;
-    border: none;
-    background-color: lightgray;
-   }
-   .sliderTitle{
-    display: none;
-   }
-   .buyButton{
+  }
+
+  .navBottom {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .menuItem {
+    margin-right: 20px;
+  }
+
+  .sliderWrapper {
+    width: 100vw;
+  }
+
+  .sliderTitle,
+  .sliderPrice {
+    font-size: 40px;
+  }
+
+  .buyButton {
+    font-size: 20px;
+    right: 5%;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product {
+    clip-path: none;
+  }
+
+  .productImg {
+    width: 100%;
+  }
+
+  .productDetails {
+    position: relative;
     top: 0;
     right: 0;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
 
-   }
-   
-  .features{
+  .productTitle {
+    font-size: 40px;
+  }
+
+  .colors,
+  .sizes {
     flex-direction: column;
-    
+    align-items: flex-start;
   }
-  .product{
-    clip-path: none;
+
+  .color {
+    margin-right: 0;
+    margin-bottom: 10px;
   }
-.product{
-  
-  display: flex;
-  flex-direction: column;
-align-items: center;
-}
-.productImg{
-  width: 80%;
-}
-.productTitle{
-  margin: 0;
-  font-size: 30px;
-}
- .productDetails{
-  position: relative;
-  top: 0;
-  width: 100%;
-  padding: 0%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
-.payment{
- width: 90%;
- padding: 20px;
-}
-.gallery{
-display: none;}
-.newSeason{
-  flex-direction: column;
-}
-.season:nth-child(2){
-  padding: 50px;
-}
-footer{
-  flex-direction: column;
-  align-items: center;
-}
-.footerLeft{
-  padding: 30px;
-  width: 90%;
-}
-.footerRight{
-  background-color: whitesmoke;
-  width: 90%;
-  padding: 30px;
-  align-items: center;
-}
-.footerRightMenu:nth-child(3){
-  
-  padding-top: 20px;
-}
+
+  .size {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .payment {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 30px;
+  }
+
+  .payButton {
+    position: relative;
+  }
+
+  .galleryItems {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .galleryItem {
+    flex: 1 1 50%;
+  }
+
+  .galleryImg {
+    padding: 20px;
+  }
 }
